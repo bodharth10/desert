@@ -7,8 +7,12 @@ def reverse(word)
 end
 
 
-def fabonacii
-	
+def fibonacii(n)
+  if (n<=2)
+    return 1
+  else
+    return (fibonacii(n-1)+fibonacii(n-2))
+  end
 end
 
 
