@@ -1,9 +1,9 @@
-def reverse(word)
-	reverse = []
-	word.split("").each do |w|
-		reverse.pop(w)
-	end
-	reverse.join("")
+def reverse_string(word)
+  reversed = []
+  word.split("").each do |w|
+    reversed.unshift(w)
+  end
+  reversed.join("")
 end
 
 
